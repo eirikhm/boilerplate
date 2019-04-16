@@ -1,6 +1,6 @@
 const ProvidePlugin = require('webpack/lib/ProvidePlugin');
 
-module.exports = (baseConfig, env, config) => {
+module.exports = async ({ config, mode }) => {
     config.module.rules.push({
       test: /\.(ts|tsx)$/,
       loader: require.resolve('babel-loader'),
