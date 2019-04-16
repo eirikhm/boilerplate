@@ -28,8 +28,8 @@ const App  = () => {
         <Helmet key="helmet">
             <meta charSet="utf-8" />
             <title>Boilerplate</title>
-            <meta name="description" content="Norges største datingnettside" />
-            <meta name="keywords" content="forum, dating, single, singel, datingforum, singleforum, singelforum" />
+            <meta name="description" content="desc" />
+            <meta name="keywords" content="key, words" />
         </Helmet>,
         <CurrentPage key="page" />
     ];
